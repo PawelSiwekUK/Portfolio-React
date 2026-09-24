@@ -2,12 +2,12 @@ import Button from 'components/common/Button';
 import { Link } from 'react-router-dom';
 import React from 'react';
 // import { SvgLoader } from 'react-svgmt'
-import { ReactComponent as Logo } from 'img/pavdev.svg';
+import { MainLogo } from '../B-Header/LargeMenu';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
   position: relative;
-  width: 170px;
+  width: 250px;
   height: 200px;
   margin: auto;
 `;
@@ -17,15 +17,8 @@ const LogoTextWrapper = styled.div`
   margin: auto;
   top: 30%;
 `;
-const MobilLogo = styled(Logo)`
-  display: block;
-  width: auto;
-  height: 50px;
-  margin-bottom: 10px;
-
-  path {
-    fill: #fff;
-  }
+const MainLogoWraper = styled.div`
+  margin: 10px 0px;
 `;
 const H1 = styled.h5`
   margin: 0px;
@@ -52,7 +45,9 @@ function Welcome({ ...props }) {
     <Wrapper>
       <LogoTextWrapper>
         <H1>I'm</H1>
-        <MobilLogo />
+        <MainLogoWraper>
+          <MainLogo>Pawel Siwek</MainLogo>
+        </MainLogoWraper>
         <Text>
           This is my Portfolio <br />
         </Text>

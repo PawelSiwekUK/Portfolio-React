@@ -158,7 +158,7 @@ const Footer = ({ visitors, rightData }) => {
     >
       <InnerWrapper>
         <Left>
-          <Nick>pavdev</Nick>
+          <Nick>Pawel Siwek</Nick>
         </Left>
         <Mid>
           {FooterHeader()}

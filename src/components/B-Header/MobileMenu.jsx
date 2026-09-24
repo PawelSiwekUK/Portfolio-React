@@ -157,7 +157,7 @@ export default function MobileMenu() {
             {toggle ? <CloseIcon /> : <MenuIcon />}
           </IconButton>
         </BurgerWrapper>
-        <LogoHeader>pavdev</LogoHeader>
+        <LogoHeader>Pawel Siwek</LogoHeader>
       </MobilTopDiv>
 
       <MobilNav toggle={toggle}>

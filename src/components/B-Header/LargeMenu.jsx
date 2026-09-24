@@ -23,9 +23,11 @@ const LangWrapper = styled.div`
   top: -50px;
   right: 23px;
 `;
-const MainLogo = styled.p`
-  display: inline-block;
+const MainLogoWraper = styled.div`
   margin: 55px auto auto 35px;
+`;
+export const MainLogo = styled.p`
+  display: inline-block;
   font-family: 'Ubuntu-Medium';
   color: #fff;
   font-size: 35px;
@@ -83,7 +85,9 @@ function MainLarge({ ...props }) {
 
   return (
     <Wrapper>
-      <MainLogo>pavdev</MainLogo>
+      <MainLogoWraper>
+        <MainLogo>Pawel Siwek</MainLogo>
+      </MainLogoWraper>
       <InnerMainNav EngLang={props.EngLang}>
         <LangWrapper>
           <LangSwitch></LangSwitch>
