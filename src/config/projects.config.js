@@ -3,11 +3,11 @@ import { react, git, mongo, nodeJS, gcloud, bootstrap, figma, html, css, scss, j
 
 export const projects = [
     {
-        alt: "Profit Radar",
+        alt: "United car data",
         githubHref: "https://github.com/PavDevUK/profit-radar",
         src: profitRadar,
         text: "Modern Next.js application and scraping toolkit for tracking Copart auctions, exploring sale calendars, and analysing lot details with market enrichment.",
-        title: "Profit Radar",
+        title: "United Car Data",
         year: "2025-present",
         webHref: { href: "https://profit-radar-ten.vercel.app/", button: "Visit" },
         stack: [react, nextjs, ts, tailwind, pup, nodeJS, chatgpt, vercel]
